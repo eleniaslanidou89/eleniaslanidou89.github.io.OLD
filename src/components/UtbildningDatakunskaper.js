@@ -11,7 +11,7 @@ class UtbildningDatakunskaper extends Component {
                     <Grid>  
                         <div className="utbildning-list" >
                                 <CardText style={{fontSize: '20px', color: 'black' }}> 27/8/2019- nu <br/> 
-                                 KYH | Front-end Developer 
+                                 KYH | Sverige Front-end Developer 
                                 </CardText>
 
                                 <CardText style={{fontSize: '20px', color: 'black' }}> 27/5/2019- 28/6/2019 <br/> Nti skolan | Sverige

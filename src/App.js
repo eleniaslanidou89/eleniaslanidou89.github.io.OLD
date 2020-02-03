@@ -27,7 +27,7 @@ class App extends Component {
                     <Link to="/projects" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Projekt</Link>
                     <Link to="/contact" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}s>Kontakt</Link>
                   </Navigation>
-              </Drawer>
+    </Drawer>
 
               <Content>
                 <div className="page-content" />
@@ -40,9 +40,5 @@ class App extends Component {
     );
   }
 }
-
-/* showing a loading indecator */
-const Loading = () =>
-<div>Loading ...</div>
 
 export default App;

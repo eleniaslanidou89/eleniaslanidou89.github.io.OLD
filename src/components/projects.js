@@ -23,6 +23,11 @@ class Projects extends Component {
                             <a href="https://github.com/eleniaslanidou89/TravelWebsite"  rel="noopener noreferrer" target="_blank">
                                    <Button colored>GitHub <i className="fab fa-github-square" aria-hidden="true" /></Button>
                             </a>
+                            {/*link till webbsida*/}
+                              <a href="http://dreaming-travel.surge.sh/" rel="noopener noreferrer" target="_blank">
+                                            <i style={{color: 'blue', height: '5px'}} class="fas fa-link" aria-hidden="true" />
+                              </a>
+
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" style={{color: 'black'}} />
@@ -37,9 +42,13 @@ class Projects extends Component {
                         <CardText style={{fontSize: '30px'}}>KYH / website</CardText>
                         <CardActions border> 
                             {/*link till github*/}
-                            <a href="https://github.com/eleniaslanidou89/KYH"  rel="noopener noreferrer" target="_blank">
+                            <a href= "https://github.com/eleniaslanidou89/KYH"  rel="noopener noreferrer" target="_blank">
                                    <Button colored>GitHub <i className="fab fa-github-square" aria-hidden="true" /></Button>
                             </a>
+                              {/*link till webbsida*/}
+                              <a href="http://kyh.surge.sh/" rel="noopener noreferrer" target="_blank">
+                                            <i style={{color: 'blue', height: '5px'}} class="fas fa-link" aria-hidden="true" />
+                              </a>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" style={{color: 'black'}} />
@@ -56,6 +65,10 @@ class Projects extends Component {
                              <a href="https://github.com/eleniaslanidou89/Quire"  rel="noopener noreferrer" target="_blank">
                                    <Button colored>GitHub <i className="fab fa-github-square" aria-hidden="true" /></Button>
                             </a>
+                            {/*link till webbsida*/}
+                            <a href="http://quire-project.surge.sh/" rel="noopener noreferrer" target="_blank">
+                                            <i style={{color: 'blue', height: '5px'}} class="fas fa-link" aria-hidden="true" />
+                              </a>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" style={{color: 'black'}} />
@@ -68,14 +81,15 @@ class Projects extends Component {
      else if(this.state.activeTab === 1){
         return(
             <div className="språk">
-            <h1>Svenska</h1>
-            <h2>goda kunskaper i tal och skrift</h2> <hr/>
-            <h1>Engelska</h1>
-            <h2>mycket goda kunskaper i tal och skrift</h2><hr/>
-            <h1>Grekiska</h1>
-            <h2>modersmål</h2><hr/>
-            <h1>Ryska</h1>
-            <h2>mycket goda kunskaper i tal</h2></div>
+            <h1>Svenska: goda kunskaper i tal och skrift </h1>
+            <hr/>
+            <h1>Engelska: mycket goda kunskaper i tal och skrift</h1>
+            <hr/>
+            <h1>Grekiska: modersmål</h1>
+            <hr/>
+            <h1>Ryska: mycket goda kunskaper i tal</h1>
+            
+            </div>
         )
         }
     }

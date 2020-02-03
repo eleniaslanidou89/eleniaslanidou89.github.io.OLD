@@ -10,7 +10,7 @@ class Contact extends Component {
                         <Cell className="title" col={6}>
                             <h2>Eleni Aslanidou</h2>
                                 <img src="me.jpg" alt="Eleni" className="image2"/> 
-                                <p>Mitt namn är Eleni Aslanidou. Jag är 30 år gammal och jag flyttade till Sverige i somras.
+                                <p>Mitt namn är Eleni Aslanidou. Jag är 30 år gammal och jag flyttade till Sverige förra sommaren.
                                     Jag är utexaminerad ingenjör inom IT och kommunikation.Som person är jag flexibel, arbetsam
                                     och anpassningsbar. Jag har tidigare arbetat sex månader som praktikant på ett grekiskt företag,
                                     Hellenic Telecommunications Organisation.
