@@ -129,7 +129,6 @@
   flex-direction: column;
   height: 100vh;
   min-width: 60px;
-  background-color: #42A5F5;
   z-index: 100;
 }
 
@@ -145,33 +144,6 @@
   color: black;
   font-size: 1em;
   padding: 8px;
-}
-
-/*   EXPAND BUTTON   */
-.info-utbildning {
-  margin: 0 auto;
-  margin-top: auto;
-}
-
-.btn_expand {
-  padding: 25px 0;
-  width: 100%;
-  font-size: 18px;
-  color: black;
-  background-color: transparent;
-  border: 0;
-  cursor: pointer;
-  outline: 0;
-  opacity: 0.6;
-}
-
-.btn_expand:hover, .btn_expand:focus {
-  opacity: 1;
-}
-
-/* open */
-.utbildning-list_open {
-  min-width: 130px;
 }
 
 
@@ -202,7 +174,7 @@
 .title{
   padding-top: 1em;
   font-size: 50px;
-  border: 2px dotted blue ;
+  border: 2px dotted gray;
   background-color: white;
 }
 
@@ -299,10 +271,22 @@
     font-size: 20px;
   }
 
+  /*.utbildning{
+    width: 100%;
+    background-image: url('http://www.getmdl.io/assets/demos/transparent.jpg');
+*/
+  .utbildning{
+    height: 90vh;
+    }
+ 
+  .utbildning-list{
+    font-size: 5px;
+    z-index: 200;
+  }
+
   .utbildning h1{
     font-size: 30px;
   }
-
 
 .projects-grid{
   color: black;

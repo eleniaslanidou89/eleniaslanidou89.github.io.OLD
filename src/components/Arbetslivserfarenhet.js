@@ -10,7 +10,7 @@ class Arbetslivserfarenhet extends Component {
                         <Grid>
                             <div className="arbetslivserfarenhet-list" >
                                 <CardText style={{fontSize: '20px', color: 'black' }}>08/2019-09/2019 <br/>
-                                    <div className="erfarenhet-social-links">Exekutive Assistant – Jobb & Tillväxtcenter 
+                                    <div className="erfarenhet-social-links">Exekutive Assistant – Jobb & Tillväxtcenter , Stockholm
                                         {/*link*/}
                                         <a href="https://jobbtillvaxtcenter.se/" rel="noopener noreferrer" target="_blank">
                                             <i class="fas fa-link" aria-hidden="true" />

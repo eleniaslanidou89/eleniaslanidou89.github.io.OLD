@@ -84,7 +84,7 @@ class Projects extends Component {
             <div className="category-tabs">
                 <Layout> 
                     <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                        <Tab style={{color: 'black'}}>Project</Tab>
+                        <Tab style={{color: 'black'}}>Projekt</Tab>
                         <Tab style={{color: 'black'}}>Språkkunskaper</Tab>
                     </Tabs>
                 </Layout>

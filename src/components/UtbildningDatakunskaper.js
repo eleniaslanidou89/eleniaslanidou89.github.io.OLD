@@ -12,8 +12,6 @@ class UtbildningDatakunskaper extends Component {
                         <div className="utbildning-list" >
                                 <CardText style={{fontSize: '20px', color: 'black' }}> 27/8/2019- nu <br/> 
                                  KYH | Front-end Developer 
-                                    {/*link*/}
-                                    
                                 </CardText>
 
                                 <CardText style={{fontSize: '20px', color: 'black' }}> 27/5/2019- 28/6/2019 <br/> Nti skolan | Sverige
@@ -24,12 +22,8 @@ class UtbildningDatakunskaper extends Component {
                                             Kurs: SFX-IT svenska för programmerare -Svenska(SVA 1)-Java
                                 </CardText>
 
-                                <CardText style={{fontSize: '20px', color: 'black' }}> 6/8/2018-17/8/2018 <br/> Folkuniversitetet | Sverige
-                                            Kurs: Svenska B2 + C1 
-                                </CardText>
-
-                                <CardText style={{fontSize: '20px', color: 'black' }}> 2/7/2018-27/7/2018 <br/> Folkuniversitetet | Sverige
-                                            Kurs: Svenska B2- 
+                                <CardText style={{fontSize: '20px', color: 'black' }}> 2/7/2018-17/8/2018 <br/> Folkuniversitetet | Sverige
+                                            Kurs: Svenska B2 + C1 & B2-
                                 </CardText>
 
                                 <CardText style={{fontSize: '20px', color: 'black' }}> 10/2016–11/2016 <br/> Certifierad Först Aid Provider (CFAP) | Grekland

@@ -16,7 +16,7 @@ class App extends Component {
                   <Link to="/Arbetslivserfarenhet" style={{fontSize: '20px', color: 'white', fontFamily: 'Dancing Script' }}>Arbetslivserfarenhet</Link>
                   <Link to="/UtbildningDatakunskaper" style={{fontSize: '20px', color: 'white', fontFamily: 'Dancing Script' }}>Utbildning-Datakunskaper</Link>
                   <Link to="/projects" style={{fontSize: '20px', color: 'white', fontFamily: 'Dancing Script' }}>Projekt</Link>
-                  <Link to="/contact" style={{fontSize: '20px', color: 'white', fontFamily: 'Dancing Script' }}>Kontact</Link>
+                  <Link to="/contact" style={{fontSize: '20px', color: 'white', fontFamily: 'Dancing Script' }}>Kontakt</Link>
                 </Navigation>
               </Header>
 
@@ -25,7 +25,7 @@ class App extends Component {
                     <Link to="/Arbetslivserfarenhet" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Arbetslivserfarenhet</Link>
                     <Link to="/UtbildningDatakunskaper" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Utbildning-Datakunskaper</Link>
                     <Link to="/projects" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Projekt</Link>
-                    <Link to="/contact" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}s>Kontact</Link>
+                    <Link to="/contact" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}s>Kontakt</Link>
                   </Navigation>
               </Drawer>
 
