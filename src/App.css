@@ -4,8 +4,20 @@
   text-align: center;
 }
 
-.backgroundImage {
-  background-image: url(http://www.getmdl.io/assets/demos/transparent.jpg) ;
+.temperature{
+  border: 2px dotted gray;
+  font-family: 'Sriracha', cursive;
+}
+
+.weather-icon img{
+  width: 50px;
+  height: 50px;
+  display: flex;
+    margin: 0 auto;
+}
+
+.backgroundImage{
+  background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80') ;
   position: fixed;
   top: 0;
   left: 0;
@@ -104,7 +116,7 @@
 }
 
 .språk{
-    background-image: url(http://www.getmdl.io/assets/demos/transparent.jpg) ;
+  background-image: url("backgroundImage.jpg") ;
     position: fixed;
     left: 0;
     background-repeat: no-repeat;

@@ -5,7 +5,7 @@ class Contact extends Component {
     render() {
         return(
             <div className="contact-body">
-                <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+                <Layout style={{background: 'url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80)  center / cover'}}>
                     <Grid className="contact-grid"> 
                         <Cell className="title" col={6}>
                             <h2>Eleni Aslanidou</h2>

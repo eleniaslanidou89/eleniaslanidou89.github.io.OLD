@@ -6,7 +6,7 @@ class UtbildningDatakunskaper extends Component {
     render() {
         return(
             <div className="utbildning">
-                <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+                <Layout style={{background: 'url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80)'}}>
                     <h1>Utbildning-Datakunskaper</h1>
                     <Grid>  
                         <div className="utbildning-list" >

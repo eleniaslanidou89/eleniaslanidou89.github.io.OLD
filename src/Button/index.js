@@ -1,4 +1,4 @@
-import React from 'react';
+
 /* import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -18,8 +18,21 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
  */
-const Button = (props) => <div> {this.props.weather || '?'}</div>
 
 
 
-export default weather;
+import React, { Component } from 'react';
+// TOdo. 1. make this code available to APp.js 2. refactor into FSC
+class Button extends Component {
+    render() {
+        const { onClick, className = '', children,
+        } = this.props;
+        return (<button
+            onClick={onClick}
+            className={className}
+            type="button"
+        >{children}
+        </button>);
+    }
+}
+export default Button;
