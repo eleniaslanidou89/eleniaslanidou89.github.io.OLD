@@ -6,7 +6,11 @@
 
 .temperature{
   border: 2px dotted gray;
-  font-family: 'Sriracha', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+  
 }
 
 .weather-icon img{
@@ -68,12 +72,6 @@
 }
 
 .banner-text h1{
-  font-size: 50px;
-  font-weight: bold;
-  color: black;
-}
-
-.banner-text h2{
   font-family: 'Dancing Script', cursive;
   color: black;
   font-weight: bold;
@@ -221,8 +219,7 @@
     height: 150px;
   }
 
-  .banner-text h1,
-  .banner-text h2{
+  .banner-text h1{
     font-size: 30px;
   }
 
@@ -250,8 +247,7 @@
     height: 100px;
   }
 
-  .banner-text h1,
-  .banner-text h2{
+  .banner-text h1{
     font-size: 20px;
   }
 

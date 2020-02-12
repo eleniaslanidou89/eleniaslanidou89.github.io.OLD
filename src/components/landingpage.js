@@ -11,8 +11,7 @@ class Landing extends Component {
                             <img src="me.jpg" alt="Eleni" className="image"/>  
                         </Cell> 
                         <div className="banner-text">
-                            <h1>Full Stack Web Developer</h1>
-                            <h2>Eleni Aslanidou<br/>Ingenjör inom IT och kommunikation</h2>
+                            <h1>Eleni Aslanidou<br/>Ingenjör inom IT och kommunikation</h1>
                             <hr/>
                             <h3>HTML5/CSS | Bootstrap | React | Javascript | Adobe Photoshop</h3>
                             <div className="social-links">

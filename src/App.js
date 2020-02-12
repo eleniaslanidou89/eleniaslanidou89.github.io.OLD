@@ -84,7 +84,11 @@ class App extends Component {
                   <Link to="/Arbetslivserfarenhet" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Arbetslivserfarenhet</Link>
                   <Link to="/UtbildningDatakunskaper" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Utbildning-Datakunskaper</Link>
                   <Link to="/projects" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Projekt</Link>
-                  <Link to="/contact" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}s>Kontakt</Link>
+                  <Link to="/contact" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Kontakt</Link>
+                  <div className='temperature'>Temperaturen är: {weather || '?'}</div>
+                  <div className='weather-icon'>
+                <img src='icons/04n.png'></img>
+                </div>
                 </Navigation>
   </Drawer>
             
