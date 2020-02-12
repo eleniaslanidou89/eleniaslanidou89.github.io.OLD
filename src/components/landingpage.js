@@ -14,6 +14,7 @@ class Landing extends Component {
                             <h1>Eleni Aslanidou<br/>Ingenjör inom IT och kommunikation</h1>
                             <hr/>
                             <h3>HTML5/CSS | Bootstrap | React | Javascript | Adobe Photoshop</h3>
+                            
                             <div className="social-links">
                                 {/*linkedIn*/}
                                 <a href="https://www.linkedin.com/in/eleni-aslanidou/"  rel="noopener noreferrer" target="_blank">

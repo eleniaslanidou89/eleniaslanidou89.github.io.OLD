@@ -37,12 +37,15 @@ function isSearched(searchTerm) {
 // API KEY: APPID=f8384513fad5f91ea04d07a2cbf916ec
 const API = "http://api.openweathermap.org/data/2.5/weather?q=stockholm,se&APPID=f8384513fad5f91ea04d07a2cbf916ec&units=metric";
 
+
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      weather: '',
-      iconElement: ''
+      temperature: '',
+      pressure: '',
+      humidity:''
+     
     };
     
   }
@@ -50,15 +53,18 @@ class App extends Component {
     console.log("CDM ran")
     fetch(API)
       .then(response => response.json())
-      .then(data => this.setState({ weather: data.main.feels_like }));
+      .then(data => this.setState({ temperature: data.main.temp,pressure: data.main.pressure,humidity: data.main.humidity}))
+ 
+      
+   
   }
-
-  
   
   render() {
-    const weather = this.state.weather;
-    const iconElement = `<img src='icons/${weather.iconId}.png'/>`;
-     
+    const temperature = this.state.temperature;
+    const pressure = this.state.pressure;
+    const humidity = this.state.humidity;
+   
+   
   
     return (
       <div className="App">
@@ -71,13 +77,14 @@ class App extends Component {
                 <Link to="/UtbildningDatakunskaper" style={{fontSize: '20px', color: 'white', fontFamily: 'Dancing Script' }}>Utbildning-Datakunskaper</Link>
                 <Link to="/projects" style={{fontSize: '20px', color: 'white', fontFamily: 'Dancing Script' }}>Projekt</Link>
                 <Link to="/contact" style={{fontSize: '20px', color: 'white', fontFamily: 'Dancing Script' }}>Kontakt</Link>
-                <div className='temperature'>Temperaturen är: {weather || '?'}</div>
-                <div className='weather-icon'>
-                <img src='icons/04n.png'></img>
-                </div>
+                
+                <div className='temperature'>Temperaturen är: {temperature || '?'}- Trycket är: {pressure || '?'} -Fuktighet är: {humidity || '?'}</div>
+             
               <div className="page-content" />
               </Navigation>
             </Header>
+
+           
 
   <Drawer title={<Link style={{textDecoration: 'none', color: 'blue', fontSize: '25px', fontFamily: 'Dancing Script'}} to="/">Home</Link>} >
                 <Navigation>
@@ -85,10 +92,10 @@ class App extends Component {
                   <Link to="/UtbildningDatakunskaper" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Utbildning-Datakunskaper</Link>
                   <Link to="/projects" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Projekt</Link>
                   <Link to="/contact" style={{color: 'black', fontSize: '25px', fontFamily: 'Dancing Script'}}>Kontakt</Link>
-                  <div className='temperature'>Temperaturen är: {weather || '?'}</div>
-                  <div className='weather-icon'>
-                <img src='icons/04n.png'></img>
-                </div>
+                  <div className='temperature'>Temperaturen är: {temperature || '?'}</div>
+                  <div className='temperature'>Trycket är: {pressure || '?'}</div>
+                <div className='temperature'>Fuktighet är: {humidity || '?'}</div>
+                
                 </Navigation>
   </Drawer>
             
