@@ -6,7 +6,7 @@
 
 .temperature{
   border: 2px dotted gray;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Segoe UI';
   font-weight: bold;
   color: black;
   font-size: 20px;
@@ -20,6 +20,8 @@
   left: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+
 }
 
 .demo-big-content{
@@ -43,11 +45,6 @@
   color: black;
   font-size: 3em;
   padding: 8px;
-}
-
-.landing-grid{
-  background-color: whitesmoke;
-  text-align: center;
 }
 
 .image{
@@ -80,10 +77,22 @@
   color: black;
   font-size: 30px;
   padding: 1em;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Segoe UI";
   font-weight: bold;
 }
 
+.banner-text p {
+  font-size: 30px;
+}
+
+.developer {
+  margin-top: 20px;
+}
+
+.banner-text .skills {
+  font-size: 20px;
+  margin-top: 25px;
+}
 .projects-grid{
   color: black;
   font-size: 30px;
@@ -99,21 +108,24 @@
 /*språkkunskaper*/
 .språk h1{
   color: black;
-  font-size: 30px;
-  padding: 1em;
-  font-family: 'Dancing Script', cursive;
-  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Segoe UI';
   display: flex;
+  justify-content: left;
+  align-items: left;
 }
 
 .språk{
-  background-image: url("backgroundImage.jpg") ;
-    position: fixed;
-    left: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+  background-image: url("backgroundImage.jpg");
+  position: fixed;
+  left: 0;
+  padding-left: 50px;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
 }
 
 /*utbildning page css*/
@@ -124,17 +136,13 @@
 .utbildning {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   min-width: 60px;
   z-index: 100;
 }
 
 .utbildning-list{
-  padding-top: 1em;
   font-size: 30px;
-  border: 2px dotted gray ;
-  background-color: white;
-    font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 .info-utbildning i{
@@ -157,21 +165,21 @@
   justify-content: center;
   width: 80%;
   height: 700px;
-    font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 .contact-grid p{
-  font-size: 20px;
+  font-size: 1rem;
+  font-family: 'Segoe UI';
+  padding-top: 2rem;
 }
 
 .contact-list{
-  font-Size: '20px';
+  font-size: 20px;
 }
 
 .title{
   padding-top: 1em;
   font-size: 50px;
-  border: 2px dotted gray;
-  background-color: white;
 }
 
 .title h2{
@@ -180,10 +188,14 @@
   font-weight: bold;
 }
 
-.image2{
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
+.title p{
+  font-size: 20px;
+  display: left;
+  padding-top: 15px;
+}
+
+.title i{
+  font-size: 20px;
 }
 
 /*Arbetslivserfarenhet page css*/
@@ -191,18 +203,26 @@
   font-family: 'Dancing Script', cursive;
 }
 
+.arbetslivserfarenhet {
+  display: flex;
+  flex-direction: column;
+  min-width: 60px;
+  z-index: 100;
+}
+
 .arbetslivserfarenhet-list{
-  padding-top: 1em;
   font-size: 30px;
-  border: 2px dotted gray ;
-  background-color: white;
   font-family: 'Dancing Script', cursive;
 }
 
 .erfarenhet-social-links i{
-    color: black;
-    padding: 8px;
-  }
+  color: black;
+  padding: 15px;
+}
+
+.date {
+  color: blue;
+}
  
 /* Tablet view */
 @media only screen and (min-width: 768px){
@@ -214,11 +234,18 @@
 
   .banner-text h1{
     font-size: 30px;
+    font-family: "Segoe UI";
+  }
+
+  .banner-text p{
+    font-size: 30px;
+    font-family: "Segoe UI";
   }
 
   .banner-text h3 {
     font-size: 20px;
     padding: 1em;
+    font-family: "Segoe UI";
   }
   .arbetslivserfarenhet h1{
     font-size: 30px;
@@ -231,22 +258,24 @@
 /* Mobile view */
 @media only screen and (max-width: 767px){
   .backgroundImage {
-    background-image: none;
+    /* background-image: none; */
   }
 
   .image{
     margin-left: 0px;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
   }
 
   .banner-text h1{
-    font-size: 20px;
+    font-size: 30px;
+    font-family: "Segoe UI";
   }
 
   .banner-text h3 {
     font-size: 15px;
     padding: 1em;
+    font-family: "Segoe UI";
   }
 
   .social-links i{
@@ -282,9 +311,14 @@
   display: flex;
   min-width: 100px;
 }
+
 .språk h1{
-  font-size: 25px;
-  display: left;
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-family: "Segoe UI";
+  margin-left: 30px;
 }
 
 .språk h2{
@@ -293,5 +327,14 @@
 
 .title h2{
   font-size: 30px;
+  }
+
+  .contactInfo {
+    font-size: 10px;
+  }
+ 
+  .språk{
+    padding-left: 10px;
+    padding-top: 50px;
   }
 }
