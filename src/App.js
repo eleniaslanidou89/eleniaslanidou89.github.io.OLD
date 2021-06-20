@@ -4,8 +4,6 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 
-
-
 const list = [
   {
     title: "React1",
@@ -46,7 +44,7 @@ class App extends Component {
   }
 
   hideToggle() {
-    var selectorId = document.querySelector('.mdl-layout');
+    var selectorId = document.querySelector(".mdl-layout");
     selectorId.MaterialLayout.toggleDrawer();
   }
 
@@ -72,13 +70,13 @@ class App extends Component {
                   textDecoration: "none",
                   fontColor: "black",
                   fontFamily: "Sriracha",
-                  backgroundColor:"lightgrey",
+                  backgroundColor: "#F2F2F2",
                 }}
                 title={
                   <Link
                     style={{
                       textDecoration: "none",
-                      color: "white",
+                      color: "black",
                       fontFamily: "Sriracha",
                     }}
                     to="/"
@@ -93,7 +91,7 @@ class App extends Component {
                     to="/Arbetslivserfarenhet"
                     style={{
                       fontSize: "20px",
-                      color: "white",
+                      color: "black",
                       fontFamily: "Sriracha",
                     }}
                   >
@@ -103,7 +101,7 @@ class App extends Component {
                     to="/UtbildningDatakunskaper"
                     style={{
                       fontSize: "20px",
-                      color: "white",
+                      color: "black",
                       fontFamily: "Sriracha",
                     }}
                   >
@@ -113,7 +111,7 @@ class App extends Component {
                     to="/projects"
                     style={{
                       fontSize: "20px",
-                      color: "white",
+                      color: "black",
                       fontFamily: "Sriracha",
                     }}
                   >
@@ -123,23 +121,23 @@ class App extends Component {
                     to="/contact"
                     style={{
                       fontSize: "20px",
-                      color: "white",
+                      color: "black",
                       fontFamily: "Sriracha",
                     }}
                   >
                     Contact
                   </Link>
 
-                  <div className="temperature">
-                    Temperature in Stockholm: {temperature || "?"}°C
-                  </div>
-
                   <div className="page-content" />
                 </Navigation>
+                <div className="temperature">
+                  Temperature in Stockholm: {temperature || "?"}°C
+                </div>
               </Header>
               <Drawer>
                 <Navigation>
-                  <Link onClick={() => this.hideToggle()}
+                  <Link
+                    onClick={() => this.hideToggle()}
                     style={{
                       textDecoration: "none",
                       color: "blue",
@@ -150,7 +148,8 @@ class App extends Component {
                   >
                     Home
                   </Link>
-                  <Link onClick={() => this.hideToggle()}
+                  <Link
+                    onClick={() => this.hideToggle()}
                     to="/Arbetslivserfarenhet"
                     style={{
                       color: "black",
@@ -160,7 +159,8 @@ class App extends Component {
                   >
                     Work Experience
                   </Link>
-                  <Link onClick={() => this.hideToggle()}
+                  <Link
+                    onClick={() => this.hideToggle()}
                     to="/UtbildningDatakunskaper"
                     style={{
                       color: "black",
@@ -170,7 +170,8 @@ class App extends Component {
                   >
                     Education
                   </Link>
-                  <Link onClick={() => this.hideToggle()}
+                  <Link
+                    onClick={() => this.hideToggle()}
                     to="/projects"
                     style={{
                       color: "black",
@@ -180,7 +181,8 @@ class App extends Component {
                   >
                     Projects
                   </Link>
-                  <Link onClick={() => this.hideToggle()}
+                  <Link
+                    onClick={() => this.hideToggle()}
                     to="/contact"
                     style={{
                       color: "black",
@@ -190,13 +192,13 @@ class App extends Component {
                   >
                     Contact
                   </Link>
-                  <div className="temperature">
-                    Temperature in Stockholm: {temperature || "?"}°C{" "}
-                  </div>
                 </Navigation>
+                <div className="temperature">
+                  Temperature in Stockholm: {temperature || "?"}°C{" "}
+                </div>
               </Drawer>
 
-              <Content >
+              <Content>
                 <Main />
               </Content>
             </Layout>

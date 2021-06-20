@@ -4,12 +4,13 @@
   text-align: center;
 }
 
+
 .temperature{
-  border: 2px dotted gray;
+  /* border: 2px dotted gray; */
   font-family: 'Segoe UI';
   font-weight: bold;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
@@ -92,6 +93,10 @@
 .banner-text .skills {
   font-size: 20px;
   margin-top: 25px;
+}
+
+.skills span {
+  font-weight: bold;
 }
 .projects-grid{
   color: black;

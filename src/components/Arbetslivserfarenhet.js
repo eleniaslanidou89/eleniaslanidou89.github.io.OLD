@@ -8,11 +8,10 @@ class Arbetslivserfarenhet extends Component {
           style={{
             background:
               "url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80) center / cover",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         >
-         
           <Grid col={10}>
             <div className="arbetslivserfarenhet-list">
               <CardText
@@ -21,9 +20,10 @@ class Arbetslivserfarenhet extends Component {
                   color: "black",
                   fontFamily: "Segoe UI",
                 }}
-              > <h1>Work Experience</h1>
+              >
+                {" "}
+                <h1>Work Experience</h1>
                 <div className="date">01/2021-05/2021</div>
-
                 <div className="erfarenhet-social-links">
                   Vinden
                   <a

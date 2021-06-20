@@ -16,8 +16,12 @@ class Landing extends Component {
               </h1>
               <hr />
               <p className="skills">
-                HTML5 | CSS | Bootstrap | React | Javascript | Next.js | GraphQL
-                | Tailwind | CSS Modules
+                <span> CODE:</span> HTML5 | CSS | Bootstrap | React | Javascript
+                <br /> Next.js | GraphQL | Material UI | Tailwind | CSSModules
+                <br />
+                <br />
+                <span> TOOLBOX: </span>Visual Studio | Trello | Slack | GitHub |
+                Fork | Linear | Figma | Sketch
               </p>
 
               <div className="social-links">
