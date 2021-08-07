@@ -35,6 +35,14 @@
   font-size: calc(10px + 2vmin);
 }
 
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 .social-links{
   display: flex;
   justify-content: space-between;
