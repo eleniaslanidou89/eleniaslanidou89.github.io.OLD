@@ -1,62 +1,62 @@
-import React, { Component } from "react";
-import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./components/main";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react'
+import './App.css'
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
+import Main from './components/main'
+import { Link } from 'react-router-dom'
 
 const list = [
   {
-    title: "React1",
-    url: "https://facebook.github.io/react/",
-    author: "Jordan Walke",
+    title: 'React1',
+    url: 'https://facebook.github.io/react/',
+    author: 'Jordan Walke',
     num_comments: 3,
     points: 4,
     objectID: 0,
   },
   {
-    title: "Redux2",
-    url: "https://github.com/reactjs/redux",
-    author: "Dan Abramov, Andrew Clark",
+    title: 'Redux2',
+    url: 'https://github.com/reactjs/redux',
+    author: 'Dan Abramov, Andrew Clark',
     num_comments: 2,
     points: 5,
     objectID: 1,
   },
-];
+]
 
 function isSearched(searchTerm) {
   return function (item) {
     return (
       !searchTerm || item.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-  };
+    )
+  }
 }
 
 // API KEY: APPID=f8384513fad5f91ea04d07a2cbf916ec
 const API =
-  "http://api.openweathermap.org/data/2.5/weather?q=stockholm,se&APPID=f8384513fad5f91ea04d07a2cbf916ec&units=metric";
+  'http://api.openweathermap.org/data/2.5/weather?q=stockholm,se&APPID=f8384513fad5f91ea04d07a2cbf916ec&units=metric'
 
 class App extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
-      temperature: "",
-    };
+      temperature: '',
+    }
   }
 
   hideToggle() {
-    var selectorId = document.querySelector(".mdl-layout");
-    selectorId.MaterialLayout.toggleDrawer();
+    var selectorId = document.querySelector('.mdl-layout')
+    selectorId.MaterialLayout.toggleDrawer()
   }
 
   componentDidMount() {
-    console.log("CDM ran");
+    console.log('CDM ran')
     fetch(API)
       .then((response) => response.json())
-      .then((data) => this.setState({ temperature: data.main.temp }));
+      .then((data) => this.setState({ temperature: data.main.temp }))
   }
 
   render() {
-    const temperature = this.state.temperature;
+    const temperature = this.state.temperature
     // const pressure = this.state.pressure;
     // const humidity = this.state.humidity;
 
@@ -67,17 +67,17 @@ class App extends Component {
             <Layout>
               <Header
                 style={{
-                  textDecoration: "none",
-                  fontColor: "black",
-                  fontFamily: "Sriracha",
-                  backgroundColor: "#F2F2F2",
+                  textDecoration: 'none',
+                  fontColor: 'black',
+                  fontFamily: 'Sriracha',
+                  backgroundColor: '#F2F2F2',
                 }}
                 title={
                   <Link
                     style={{
-                      textDecoration: "none",
-                      color: "black",
-                      fontFamily: "Sriracha",
+                      textDecoration: 'none',
+                      color: 'black',
+                      fontFamily: 'Sriracha',
                     }}
                     to="/"
                   >
@@ -90,9 +90,9 @@ class App extends Component {
                   <Link
                     to="/Arbetslivserfarenhet"
                     style={{
-                      fontSize: "20px",
-                      color: "black",
-                      fontFamily: "Sriracha",
+                      fontSize: '20px',
+                      color: 'black',
+                      fontFamily: 'Sriracha',
                     }}
                   >
                     Work Experience
@@ -100,9 +100,9 @@ class App extends Component {
                   <Link
                     to="/UtbildningDatakunskaper"
                     style={{
-                      fontSize: "20px",
-                      color: "black",
-                      fontFamily: "Sriracha",
+                      fontSize: '20px',
+                      color: 'black',
+                      fontFamily: 'Sriracha',
                     }}
                   >
                     Education
@@ -110,9 +110,9 @@ class App extends Component {
                   <Link
                     to="/projects"
                     style={{
-                      fontSize: "20px",
-                      color: "black",
-                      fontFamily: "Sriracha",
+                      fontSize: '20px',
+                      color: 'black',
+                      fontFamily: 'Sriracha',
                     }}
                   >
                     Projects
@@ -120,9 +120,9 @@ class App extends Component {
                   <Link
                     to="/contact"
                     style={{
-                      fontSize: "20px",
-                      color: "black",
-                      fontFamily: "Sriracha",
+                      fontSize: '20px',
+                      color: 'black',
+                      fontFamily: 'Sriracha',
                     }}
                   >
                     Contact
@@ -131,7 +131,7 @@ class App extends Component {
                   <div className="page-content" />
                 </Navigation>
                 <div className="temperature">
-                  Temperature in Stockholm: {temperature || "?"}°C
+                  Temperature in Stockholm: {temperature || '?'}°C
                 </div>
               </Header>
               <Drawer>
@@ -139,10 +139,10 @@ class App extends Component {
                   <Link
                     onClick={() => this.hideToggle()}
                     style={{
-                      textDecoration: "none",
-                      color: "blue",
-                      fontSize: "20px",
-                      fontFamily: "Sriracha",
+                      textDecoration: 'none',
+                      color: 'blue',
+                      fontSize: '20px',
+                      fontFamily: 'Sriracha',
                     }}
                     to="/"
                   >
@@ -152,9 +152,9 @@ class App extends Component {
                     onClick={() => this.hideToggle()}
                     to="/Arbetslivserfarenhet"
                     style={{
-                      color: "black",
-                      fontSize: "15px",
-                      fontFamily: "Sriracha",
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Sriracha',
                     }}
                   >
                     Work Experience
@@ -163,9 +163,9 @@ class App extends Component {
                     onClick={() => this.hideToggle()}
                     to="/UtbildningDatakunskaper"
                     style={{
-                      color: "black",
-                      fontSize: "15px",
-                      fontFamily: "Sriracha",
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Sriracha',
                     }}
                   >
                     Education
@@ -174,9 +174,9 @@ class App extends Component {
                     onClick={() => this.hideToggle()}
                     to="/projects"
                     style={{
-                      color: "black",
-                      fontSize: "15px",
-                      fontFamily: "Sriracha",
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Sriracha',
                     }}
                   >
                     Projects
@@ -185,16 +185,16 @@ class App extends Component {
                     onClick={() => this.hideToggle()}
                     to="/contact"
                     style={{
-                      color: "black",
-                      fontSize: "15px",
-                      fontFamily: "Sriracha",
+                      color: 'black',
+                      fontSize: '15px',
+                      fontFamily: 'Sriracha',
                     }}
                   >
                     Contact
                   </Link>
                 </Navigation>
                 <div className="temperature">
-                  Temperature in Stockholm: {temperature || "?"}°C{" "}
+                  Temperature in Stockholm: {temperature || '?'}°C{' '}
                 </div>
               </Drawer>
 
@@ -205,8 +205,8 @@ class App extends Component {
           </div>
         </header>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

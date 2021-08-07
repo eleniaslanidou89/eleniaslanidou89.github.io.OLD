@@ -4,8 +4,7 @@
   text-align: center;
 }
 
-
-.temperature{
+.temperature {
   /* border: 2px dotted gray; */
   font-family: 'Segoe UI';
   font-weight: bold;
@@ -13,19 +12,17 @@
   font-size: 18px;
 }
 
-
-.backgroundImage{
-  background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80') ;
+.backgroundImage {
+  background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80');
   position: fixed;
   top: 0;
   left: 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
-.demo-big-content{
+.demo-big-content {
   font-size: 20px;
 }
 
@@ -43,20 +40,20 @@
   height: 40vmin;
   pointer-events: none;
 }
-.social-links{
+.social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
 }
 
-.social-links i{
+.social-links i {
   color: black;
   font-size: 3em;
   padding: 8px;
 }
 
-.image{
+.image {
   margin-left: 140px;
   border-radius: 50%;
   width: 200px;
@@ -64,19 +61,19 @@
   margin-top: 80px;
 }
 
-.banner-text{
+.banner-text {
   width: 75%;
   margin: auto;
   border-radius: 10px;
 }
 
-.banner-text h1{
+.banner-text h1 {
   font-family: 'Dancing Script', cursive;
   color: black;
   font-weight: bold;
 }
 
-.banner-text hr{
+.banner-text hr {
   border-top: 5px dotted gray;
   width: 50%;
   margin: auto;
@@ -86,7 +83,7 @@
   color: black;
   font-size: 30px;
   padding: 1em;
-  font-family: "Segoe UI";
+  font-family: 'Segoe UI';
   font-weight: bold;
 }
 
@@ -106,7 +103,7 @@
 .skills span {
   font-weight: bold;
 }
-.projects-grid{
+.projects-grid {
   color: black;
   font-size: 30px;
   padding: 1em;
@@ -119,7 +116,7 @@
 }
 
 /*språkkunskaper*/
-.språk h1{
+.språk h1 {
   color: black;
   font-size: 20px;
   font-family: 'Segoe UI';
@@ -128,8 +125,8 @@
   align-items: left;
 }
 
-.språk{
-  background-image: url("backgroundImage.jpg");
+.språk {
+  background-image: url('backgroundImage.jpg');
   position: fixed;
   left: 0;
   padding-left: 50px;
@@ -142,7 +139,7 @@
 }
 
 /*utbildning page css*/
-.utbildning h1{
+.utbildning h1 {
   font-family: 'Dancing Script', cursive;
 }
 
@@ -153,19 +150,19 @@
   z-index: 100;
 }
 
-.utbildning-list{
+.utbildning-list {
   font-size: 30px;
   font-family: 'Dancing Script', cursive;
 }
 
-.info-utbildning i{
+.info-utbildning i {
   color: black;
   font-size: 1em;
   padding: 8px;
 }
 
 /*contact page css*/
-.contact-body{
+.contact-body {
   margin: auto;
   position: fixed;
   width: 100%;
@@ -173,46 +170,46 @@
   justify-content: center;
 }
 
-.contact-grid{
+.contact-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
   height: 700px;
   font-family: 'Dancing Script', cursive;
 }
-.contact-grid p{
+.contact-grid p {
   font-size: 1rem;
   font-family: 'Segoe UI';
   padding-top: 2rem;
 }
 
-.contact-list{
+.contact-list {
   font-size: 20px;
 }
 
-.title{
+.title {
   padding-top: 1em;
   font-size: 50px;
 }
 
-.title h2{
+.title h2 {
   font-family: 'Dancing Script', cursive;
   color: black;
   font-weight: bold;
 }
 
-.title p{
+.title p {
   font-size: 20px;
   display: left;
   padding-top: 15px;
 }
 
-.title i{
+.title i {
   font-size: 20px;
 }
 
 /*Arbetslivserfarenhet page css*/
-.arbetslivserfarenhet h1{
+.arbetslivserfarenhet h1 {
   font-family: 'Dancing Script', cursive;
 }
 
@@ -223,12 +220,12 @@
   z-index: 100;
 }
 
-.arbetslivserfarenhet-list{
+.arbetslivserfarenhet-list {
   font-size: 30px;
   font-family: 'Dancing Script', cursive;
 }
 
-.erfarenhet-social-links i{
+.erfarenhet-social-links i {
   color: black;
   padding: 15px;
 }
@@ -236,117 +233,116 @@
 .date {
   color: blue;
 }
- 
+
 /* Tablet view */
-@media only screen and (min-width: 768px){
-  .image{
+@media only screen and (min-width: 768px) {
+  .image {
     margin-left: 0px;
     width: 150px;
     height: 150px;
   }
 
-  .banner-text h1{
+  .banner-text h1 {
     font-size: 30px;
-    font-family: "Segoe UI";
+    font-family: 'Segoe UI';
   }
 
-  .banner-text p{
+  .banner-text p {
     font-size: 30px;
-    font-family: "Segoe UI";
+    font-family: 'Segoe UI';
   }
 
   .banner-text h3 {
     font-size: 20px;
     padding: 1em;
-    font-family: "Segoe UI";
+    font-family: 'Segoe UI';
   }
-  .arbetslivserfarenhet h1{
+  .arbetslivserfarenhet h1 {
     font-size: 30px;
   }
-  .utbildning h1{
+  .utbildning h1 {
     font-size: 30px;
   }
 }
 
 /* Mobile view */
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   .backgroundImage {
     /* background-image: none; */
   }
 
-  .image{
+  .image {
     margin-left: 0px;
     width: 130px;
     height: 130px;
   }
 
-  .banner-text h1{
+  .banner-text h1 {
     font-size: 30px;
-    font-family: "Segoe UI";
+    font-family: 'Segoe UI';
   }
 
   .banner-text h3 {
     font-size: 15px;
     padding: 1em;
-    font-family: "Segoe UI";
+    font-family: 'Segoe UI';
   }
 
-  .social-links i{
+  .social-links i {
     font-size: 2em;
   }
-  
-  .arbetslivserfarenhet h1{
+
+  .arbetslivserfarenhet h1 {
     font-size: 30px;
   }
 
-  .erfarenhet-social-links
-  {
+  .erfarenhet-social-links {
     font-size: 20px;
   }
 
-  .utbildning{
+  .utbildning {
     height: 90vh;
-    }
- 
-  .utbildning-list{
+  }
+
+  .utbildning-list {
     font-size: 5px;
     z-index: 200;
   }
 
-  .utbildning h1{
+  .utbildning h1 {
     font-size: 30px;
   }
 
-.projects-grid{
-  color: black;
-  font-size: 10px;
-  padding: 0;
-  display: flex;
-  min-width: 100px;
-}
+  .projects-grid {
+    color: black;
+    font-size: 10px;
+    padding: 0;
+    display: flex;
+    min-width: 100px;
+  }
 
-.språk h1{
-  font-size: 20px;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  font-family: "Segoe UI";
-  margin-left: 30px;
-}
+  .språk h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: 'Segoe UI';
+    margin-left: 30px;
+  }
 
-.språk h2{
-  font-size: 20px;
-}
+  .språk h2 {
+    font-size: 20px;
+  }
 
-.title h2{
-  font-size: 30px;
+  .title h2 {
+    font-size: 30px;
   }
 
   .contactInfo {
     font-size: 10px;
   }
- 
-  .språk{
+
+  .språk {
     padding-left: 10px;
     padding-top: 50px;
   }

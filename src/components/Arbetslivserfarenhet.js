@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Grid, Cell, CardText, Layout } from "react-mdl";
+import React, { Component } from 'react'
+import { Grid, Cell, CardText, Layout } from 'react-mdl'
 class Arbetslivserfarenhet extends Component {
   render() {
     return (
@@ -7,21 +7,21 @@ class Arbetslivserfarenhet extends Component {
         <Layout
           style={{
             background:
-              "url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80) center / cover",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+              'url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80) center / cover',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
         >
           <Grid col={10}>
             <div className="arbetslivserfarenhet-list">
               <CardText
                 style={{
-                  fontSize: "20px",
-                  color: "black",
-                  fontFamily: "Segoe UI",
+                  fontSize: '20px',
+                  color: 'black',
+                  fontFamily: 'Segoe UI',
                 }}
               >
-                {" "}
+                {' '}
                 <h1>Work Experience</h1>
                 <div className="date">01/2021-05/2021</div>
                 <div className="erfarenhet-social-links">
@@ -41,9 +41,9 @@ class Arbetslivserfarenhet extends Component {
 
               <CardText
                 style={{
-                  fontSize: "20px",
-                  color: "black",
-                  fontFamily: "Segoe UI",
+                  fontSize: '20px',
+                  color: 'black',
+                  fontFamily: 'Segoe UI',
                 }}
               >
                 <div className="date">08/2019-09/2019</div>
@@ -63,9 +63,9 @@ class Arbetslivserfarenhet extends Component {
               </CardText>
               <CardText
                 style={{
-                  fontSize: "20px",
-                  color: "black",
-                  fontFamily: "Segoe UI",
+                  fontSize: '20px',
+                  color: 'black',
+                  fontFamily: 'Segoe UI',
                 }}
               >
                 <div className="date">01/2019- 06/2019</div>
@@ -84,9 +84,9 @@ class Arbetslivserfarenhet extends Component {
               </CardText>
               <CardText
                 style={{
-                  fontSize: "20px",
-                  color: "black",
-                  fontFamily: "Segoe UI",
+                  fontSize: '20px',
+                  color: 'black',
+                  fontFamily: 'Segoe UI',
                 }}
               >
                 <div className="date">09/2013–5/2018</div>
@@ -95,9 +95,9 @@ class Arbetslivserfarenhet extends Component {
               </CardText>
               <CardText
                 style={{
-                  fontSize: "20px",
-                  color: "black",
-                  fontFamily: "Segoe UI",
+                  fontSize: '20px',
+                  color: 'black',
+                  fontFamily: 'Segoe UI',
                 }}
               >
                 <div className="date">04/2012–10/2012</div> <br />
@@ -118,8 +118,8 @@ class Arbetslivserfarenhet extends Component {
           </Grid>
         </Layout>
       </div>
-    );
+    )
   }
 }
 
-export default Arbetslivserfarenhet;
+export default Arbetslivserfarenhet

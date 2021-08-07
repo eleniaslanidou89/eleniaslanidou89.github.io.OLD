@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 import {
   Tabs,
   Tab,
@@ -10,12 +10,12 @@ import {
   CardActions,
   Button,
   Layout,
-} from "react-mdl";
+} from 'react-mdl'
 
 class Projects extends Component {
   constructor(props) {
-    super(props);
-    this.state = { activeTab: 0 };
+    super(props)
+    this.state = { activeTab: 0 }
   }
   toggleCategories() {
     if (this.state.activeTab === 0) {
@@ -24,9 +24,9 @@ class Projects extends Component {
           {/*Project #1*/}
           <Card
             shadow={5}
-            style={{ minWidth: "500", marginTop: "80px", marginLeft: "50px" }}
+            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            {" "}
+            {' '}
             <a
               href="http://quire-project.surge.sh/"
               rel="noopener noreferrer"
@@ -34,23 +34,27 @@ class Projects extends Component {
             >
               <CardTitle
                 style={{
-                  color: "#fff",
-                  height: "175px",
+                  color: '#fff',
+                  height: '175px',
                   background:
-                    "url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover",
-                  width: "200px",
-                  marginLeft: "80px",
+                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
+                  width: '200px',
+                  marginLeft: '80px',
                 }}
               ></CardTitle>
             </a>
-            <CardText style={{ fontSize: "20px", fontFamily: "Segoe UI" }}>
+            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               Quire / website
             </CardText>
             <CardActions border>
               {/*link for github*/}
-              <a href="https://github.com/eleniaslanidou89/Quire" rel="noopener noreferrer" target="_blank">
+              <a
+                href="https://github.com/eleniaslanidou89/Quire"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <Button colored>
-                  GitHub{" "}
+                  GitHub{' '}
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
@@ -60,7 +64,7 @@ class Projects extends Component {
           {/*Project #2*/}
           <Card
             shadow={5}
-            style={{ minWidth: "500", marginTop: "80px", marginLeft: "50px" }}
+            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
             <a
               href="http://bookstore-eleni.herokuapp.com/"
@@ -69,35 +73,39 @@ class Projects extends Component {
             >
               <CardTitle
                 style={{
-                  color: "#fff",
-                  height: "175px",
+                  color: '#fff',
+                  height: '175px',
                   background:
-                    "url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover",
-                  width: "200px",
-                  marginLeft: "80px",
+                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
+                  width: '200px',
+                  marginLeft: '80px',
                 }}
               ></CardTitle>
             </a>
-            <CardText style={{ fontSize: "20px", fontFamily: "Segoe UI" }}>
+            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               Bookstore / website
               <br />
               <br /> E-books
             </CardText>
             <CardActions border>
               {/*link for github*/}
-              <a href="https://github.com/eleniaslanidou89/e-books" rel="noopener noreferrer" target="_blank">
+              <a
+                href="https://github.com/eleniaslanidou89/e-books"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <Button colored>
-                  GitHub{" "}
+                  GitHub{' '}
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
             </CardActions>
           </Card>
 
-           {/*Project #3*/}
-           <Card
+          {/*Project #3*/}
+          <Card
             shadow={5}
-            style={{ minWidth: "500", marginTop: "80px", marginLeft: "50px" }}
+            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
             <a
               href="http://bookstore-eleni.herokuapp.com/"
@@ -106,25 +114,29 @@ class Projects extends Component {
             >
               <CardTitle
                 style={{
-                  color: "#fff",
-                  height: "175px",
+                  color: '#fff',
+                  height: '175px',
                   background:
-                    "url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover",
-                  width: "200px",
-                  marginLeft: "80px",
+                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
+                  width: '200px',
+                  marginLeft: '80px',
                 }}
               ></CardTitle>
             </a>
-            <CardText style={{ fontSize: "20px", fontFamily: "Segoe UI" }}>
+            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               Comments / app
               <br />
               <br /> Blog
             </CardText>
             <CardActions border>
               {/*link for github*/}
-              <a href="https://github.com/eleniaslanidou89/comments-project" rel="noopener noreferrer" target="_blank">
+              <a
+                href="https://github.com/eleniaslanidou89/comments-project"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <Button colored>
-                  GitHub{" "}
+                  GitHub{' '}
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
@@ -134,7 +146,7 @@ class Projects extends Component {
           {/*Project #4*/}
           <Card
             shadow={5}
-            style={{ minWidth: "500", marginTop: "80px", marginLeft: "50px" }}
+            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
             <a
               href="http://bookstore-eleni.herokuapp.com/"
@@ -143,33 +155,36 @@ class Projects extends Component {
             >
               <CardTitle
                 style={{
-                  color: "#fff",
-                  height: "175px",
+                  color: '#fff',
+                  height: '175px',
                   background:
-                    "url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover",
-                  width: "200px",
-                  marginLeft: "80px",
+                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
+                  width: '200px',
+                  marginLeft: '80px',
                 }}
               ></CardTitle>
             </a>
-            <CardText style={{ fontSize: "20px", fontFamily: "Segoe UI" }}>
+            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               My store / application
               <br />
               <br /> Angular application with components
             </CardText>
             <CardActions border>
               {/*link for github*/}
-              <a href="https://github.com/eleniaslanidou89/angular-fyx8tk-bgamsm" rel="noopener noreferrer" target="_blank">
+              <a
+                href="https://github.com/eleniaslanidou89/angular-fyx8tk-bgamsm"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <Button colored>
-                  GitHub{" "}
+                  GitHub{' '}
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
             </CardActions>
           </Card>
-          
         </div>
-      );
+      )
     } else if (this.state.activeTab === 1) {
       return (
         <div className="språk">
@@ -178,7 +193,7 @@ class Projects extends Component {
           <h1>English: Proficient</h1>
           <h1>Russian: Proficient(only speaking)</h1>
         </div>
-      );
+      )
     }
   }
   render() {
@@ -190,10 +205,10 @@ class Projects extends Component {
             onChange={(tabId) => this.setState({ activeTab: tabId })}
             ripple
           >
-            <Tab style={{ fontFamily: "Segoe UI", color: "black" }}>
+            <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
               Projects
             </Tab>
-            <Tab style={{ fontFamily: "Segoe UI", color: "black" }}>
+            <Tab style={{ fontFamily: 'Segoe UI', color: 'black' }}>
               Languages
             </Tab>
           </Tabs>
@@ -206,8 +221,8 @@ class Projects extends Component {
           </Grid>
         </section>
       </div>
-    );
+    )
   }
 }
 
-export default Projects;
+export default Projects

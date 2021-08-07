@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import { Grid, Layout } from "react-mdl";
+import React, { Component } from 'react'
+import { Grid, Layout } from 'react-mdl'
 
 class Landing extends Component {
   render() {
     return (
-      <div className="container" style={{ width: "100%", margin: "auto" }}>
+      <div className="container" style={{ width: '100%', margin: 'auto' }}>
         <Layout className="backgroundImage">
           <Grid>
             <div className="banner-text">
@@ -17,7 +17,7 @@ class Landing extends Component {
               <hr />
               <p className="skills">
                 <span> CODE:</span> HTML5 | CSS | Bootstrap | React | Javascript
-                <br /> Next.js | GraphQL | Material UI | Tailwind | CSSModules 
+                <br /> Next.js | GraphQL | Material UI | Tailwind | CSSModules
                 <br /> | Typescript | Angular
                 <br />
                 <span> TOOLBOX: </span>Visual Studio | Trello | Slack | GitHub |
@@ -46,8 +46,8 @@ class Landing extends Component {
           </Grid>
         </Layout>
       </div>
-    );
+    )
   }
 }
 
-export default Landing;
+export default Landing
