@@ -48,7 +48,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               {/*link for github*/}
-              <a href="" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/eleniaslanidou89/Quire" rel="noopener noreferrer" target="_blank">
                 <Button colored>
                   GitHub{" "}
                   <i className="fab fa-github-square" aria-hidden="true" />
@@ -80,10 +80,12 @@ class Projects extends Component {
             </a>
             <CardText style={{ fontSize: "20px", fontFamily: "Segoe UI" }}>
               Bookstore / website
+              <br />
+              <br /> E-books
             </CardText>
             <CardActions border>
               {/*link for github*/}
-              <a href="" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/eleniaslanidou89/e-books" rel="noopener noreferrer" target="_blank">
                 <Button colored>
                   GitHub{" "}
                   <i className="fab fa-github-square" aria-hidden="true" />
@@ -114,11 +116,50 @@ class Projects extends Component {
               ></CardTitle>
             </a>
             <CardText style={{ fontSize: "20px", fontFamily: "Segoe UI" }}>
-              comments / app
+              Comments / app
+              <br />
+              <br /> Blog
             </CardText>
             <CardActions border>
               {/*link for github*/}
-              <a href="" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/eleniaslanidou89/comments-project" rel="noopener noreferrer" target="_blank">
+                <Button colored>
+                  GitHub{" "}
+                  <i className="fab fa-github-square" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          {/*Project #4*/}
+          <Card
+            shadow={5}
+            style={{ minWidth: "500", marginTop: "80px", marginLeft: "50px" }}
+          >
+            <a
+              href="http://bookstore-eleni.herokuapp.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "175px",
+                  background:
+                    "url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover",
+                  width: "200px",
+                  marginLeft: "80px",
+                }}
+              ></CardTitle>
+            </a>
+            <CardText style={{ fontSize: "20px", fontFamily: "Segoe UI" }}>
+              My store / application
+              <br />
+              <br /> Angular application with components
+            </CardText>
+            <CardActions border>
+              {/*link for github*/}
+              <a href="https://github.com/eleniaslanidou89/angular-fyx8tk-bgamsm" rel="noopener noreferrer" target="_blank">
                 <Button colored>
                   GitHub{" "}
                   <i className="fab fa-github-square" aria-hidden="true" />
