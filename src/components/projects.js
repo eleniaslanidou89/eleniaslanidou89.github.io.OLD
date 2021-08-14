@@ -165,7 +165,7 @@ class Projects extends Component {
               ></CardTitle>
             </a>
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              My store / application
+              My store
               <br />
               <br /> Angular application with components
             </CardText>
@@ -179,6 +179,17 @@ class Projects extends Component {
                 <Button colored>
                   GitHub{' '}
                   <i className="fab fa-github-square" aria-hidden="true" />
+                </Button>
+              </a>
+                {/*link for app*/}
+                <a
+                href="https://angular-fyx8tk-rwft5n.stackblitz.io"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  App{' '}
+                  <i class="fab fa-angular" aria-hidden="true" />
                 </Button>
               </a>
             </CardActions>
