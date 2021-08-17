@@ -189,14 +189,14 @@ class Projects extends Component {
               ></CardTitle>
             </a>
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              My store
+              Remember to buy
               <br />
-              <br /> Angular application with components
+              <br /> To do List created with React.
             </CardText>
             <CardActions border>
               {/*link for github*/}
               <a
-                href="https://github.com/eleniaslanidou89/angular-fyx8tk-bgamsm"
+                href=""
                 rel="noopener noreferrer"
                 target="_blank"
               >
