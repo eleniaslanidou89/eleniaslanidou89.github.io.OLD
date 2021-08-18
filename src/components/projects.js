@@ -97,9 +97,12 @@ class Projects extends Component {
               ></CardTitle>
             </a>
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              Bookstore / website
+              Bookstore / E-books
               <br />
-              <br /> E-books
+              <br /> Website that has as a goal, making an end user able to
+              browse within the available books. I have used Googles's API.
+              <br />
+              <br /> React, Next.js, Tailwind.
             </CardText>
             <CardActions border>
               {/*link for github*/}
@@ -113,50 +116,9 @@ class Projects extends Component {
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
-            </CardActions>
-          </Card>
-
-          {/*Project #3*/}
-          <Card
-            shadow={5}
-            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
-          >
-            <a
-              href="http://bookstore-eleni.herokuapp.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <CardTitle
-                style={{
-                  color: '#fff',
-                  height: '175px',
-                  background:
-                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
-                  width: '200px',
-                  marginLeft: '80px',
-                }}
-              ></CardTitle>
-            </a>
-            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              My store
-              <br />
-              <br /> Angular application with components
-            </CardText>
-            <CardActions border>
-              {/*link for github*/}
+              {/*link for website*/}
               <a
-                href="https://github.com/eleniaslanidou89/angular-fyx8tk-bgamsm"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>
-                  GitHub{' '}
-                  <i className="fab fa-github-square" aria-hidden="true" />
-                </Button>
-              </a>
-              {/*link for app*/}
-              <a
-                href="https://angular-fyx8tk-rwft5n.stackblitz.io"
+                href="http://bookstore-eleni.herokuapp.com/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -167,7 +129,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Project #4*/}
+          {/*Project #3*/}
           <Card
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
@@ -192,11 +154,62 @@ class Projects extends Component {
               Remember to buy
               <br />
               <br /> To do List created with React.
+              <br /><br />
+              Fully responsive as well.
+            </CardText>
+            <CardActions border>
+              {/*link for github*/}
+              <a href="https://github.com/eleniaslanidou89/Remember_To_Buy" rel="noopener noreferrer" target="_blank">
+                <Button colored>
+                  GitHub{' '}
+                  <i className="fab fa-github-square" aria-hidden="true" />
+                </Button>
+              </a>
+              {/*link for app*/}
+              <a
+                href="https://remembertodo.surge.sh/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  LINK <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          {/*Project #4*/}
+          <Card
+            shadow={5}
+            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
+          >
+            <a
+              href="http://bookstore-eleni.herokuapp.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <CardTitle
+                style={{
+                  color: '#fff',
+                  height: '175px',
+                  background:
+                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
+                  width: '200px',
+                  marginLeft: '80px',
+                }}
+              ></CardTitle>
+            </a>
+            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
+              My store
+              <br />
+              <br /> Angular application with components
+              <br />
+              <br /> Starting learning Angular! Enjoying learning new things!
             </CardText>
             <CardActions border>
               {/*link for github*/}
               <a
-                href=""
+                href="https://github.com/eleniaslanidou89/angular-fyx8tk-bgamsm"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -207,7 +220,7 @@ class Projects extends Component {
               </a>
               {/*link for app*/}
               <a
-                href="https://remembertodo.surge.sh/"
+                href="https://angular-fyx8tk-rwft5n.stackblitz.io"
                 rel="noopener noreferrer"
                 target="_blank"
               >
