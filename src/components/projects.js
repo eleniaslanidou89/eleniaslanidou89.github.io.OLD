@@ -37,7 +37,7 @@ class Projects extends Component {
                   color: '#fff',
                   height: '175px',
                   background:
-                    'url(https://images.unsplash.com/photo-1607964969051-988be31393fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80png) center/cover',
+                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
                   width: '200px',
                   marginLeft: '80px',
                 }}
