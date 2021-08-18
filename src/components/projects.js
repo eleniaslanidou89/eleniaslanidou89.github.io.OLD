@@ -100,9 +100,7 @@ class Projects extends Component {
               Bookstore / E-books
               <br />
               <br /> Website that has as a goal, making an end user able to
-              browse within the available books. I have used Googles's API.
-              <br />
-              <br /> React, Next.js, Tailwind.
+              browse within the available books. React, Next.js, Tailwind, API.
             </CardText>
             <CardActions border>
               {/*link for github*/}
@@ -154,12 +152,17 @@ class Projects extends Component {
               Remember to buy
               <br />
               <br /> To do List created with React.
-              <br /><br />
+              <br />
+              <br />
               Fully responsive as well.
             </CardText>
             <CardActions border>
               {/*link for github*/}
-              <a href="https://github.com/eleniaslanidou89/Remember_To_Buy" rel="noopener noreferrer" target="_blank">
+              <a
+                href="https://github.com/eleniaslanidou89/Remember_To_Buy"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <Button colored>
                   GitHub{' '}
                   <i className="fab fa-github-square" aria-hidden="true" />
@@ -202,7 +205,7 @@ class Projects extends Component {
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               My store
               <br />
-              <br /> Angular application with components
+              <br /> Angular application with components.
               <br />
               <br /> Starting learning Angular! Enjoying learning new things!
             </CardText>
