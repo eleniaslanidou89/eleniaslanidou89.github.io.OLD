@@ -26,23 +26,7 @@ class Projects extends Component {
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            {' '}
-            <a
-              href="https://elenisblog.surge.sh/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <CardTitle
-                style={{
-                  color: '#fff',
-                  height: '175px',
-                  background:
-                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
-                  width: '200px',
-                  marginLeft: '80px',
-                }}
-              ></CardTitle>
-            </a>
+            <img src="weather-app.PNG" alt="Eleni" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               Eleni's Blog
               <br />
@@ -80,22 +64,45 @@ class Projects extends Component {
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <a
-              href="http://bookstore-eleni.herokuapp.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <CardTitle
-                style={{
-                  color: '#fff',
-                  height: '175px',
-                  background:
-                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
-                  width: '200px',
-                  marginLeft: '80px',
-                }}
-              ></CardTitle>
-            </a>
+            <img src="weather-app.PNG" alt="Eleni" />
+            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
+              Weather App
+              <br />
+              <br />
+              Weather app in React JS, I used the Open Weather Map API to make
+              calls to a restful api to return the current weather data.
+            </CardText>
+            <CardActions border>
+              {/*link for github*/}
+              <a
+                href="https://github.com/eleniaslanidou89/e-books"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  GitHub{' '}
+                  <i className="fab fa-github-square" aria-hidden="true" />
+                </Button>
+              </a>
+              {/*link for app*/}
+              <a
+                href="http://weatherappbyeleni.surge.sh/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  LINK <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          {/*Project #3*/}
+          <Card
+            shadow={5}
+            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
+          >
+            <img src="weather-app.PNG" alt="Eleni" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               Bookstore / E-books
               <br />
@@ -127,27 +134,12 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Project #3*/}
+          {/*Project #4*/}
           <Card
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <a
-              href="https://remembertodo.surge.sh/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <CardTitle
-                style={{
-                  color: '#fff',
-                  height: '175px',
-                  background:
-                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
-                  width: '200px',
-                  marginLeft: '80px',
-                }}
-              ></CardTitle>
-            </a>
+            <img src="weather-app.PNG" alt="Eleni" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               Remember to buy
               <br />
@@ -181,27 +173,12 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Project #4*/}
+          {/*Project #5*/}
           <Card
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <a
-              href="http://bookstore-eleni.herokuapp.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <CardTitle
-                style={{
-                  color: '#fff',
-                  height: '175px',
-                  background:
-                    'url(https://logos.textgiraffe.com/logos/logo-name/Eleni-designstyle-breeze-o.png) center/cover',
-                  width: '200px',
-                  marginLeft: '80px',
-                }}
-              ></CardTitle>
-            </a>
+            <img src="weather-app.PNG" alt="Eleni" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
               My store
               <br />
