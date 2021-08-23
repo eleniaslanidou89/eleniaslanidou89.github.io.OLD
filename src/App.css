@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap");
 
 .App {
   text-align: center;
@@ -6,14 +6,14 @@
 
 .temperature {
   /* border: 2px dotted gray; */
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-weight: bold;
   color: black;
   font-size: 18px;
 }
 
 .backgroundImage {
-  background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80');
+  background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
   position: fixed;
   top: 0;
   left: 0;
@@ -68,7 +68,7 @@
 }
 
 .banner-text h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   color: black;
   font-weight: bold;
 }
@@ -83,7 +83,7 @@
   color: black;
   font-size: 30px;
   padding: 1em;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-weight: bold;
 }
 
@@ -103,11 +103,21 @@
 .skills span {
   font-weight: bold;
 }
+
+.project-image {
+  margin-left: 60px;
+  align: center;
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+
 .projects-grid {
   color: black;
   font-size: 30px;
   padding: 1em;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: bold;
   display: flex;
   flex-direction: row;
@@ -119,14 +129,14 @@
 .språk h1 {
   color: black;
   font-size: 20px;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   display: flex;
   justify-content: left;
   align-items: left;
 }
 
 .språk {
-  background-image: url('backgroundImage.jpg');
+  background-image: url("backgroundImage.jpg");
   position: fixed;
   left: 0;
   padding-left: 50px;
@@ -140,7 +150,7 @@
 
 /*utbildning page css*/
 .utbildning h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .utbildning {
@@ -152,7 +162,7 @@
 
 .utbildning-list {
   font-size: 30px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .info-utbildning i {
@@ -175,11 +185,11 @@
   justify-content: center;
   width: 80%;
   height: 700px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 .contact-grid p {
   font-size: 1rem;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   padding-top: 2rem;
 }
 
@@ -193,7 +203,7 @@
 }
 
 .title h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   color: black;
   font-weight: bold;
 }
@@ -210,7 +220,7 @@
 
 /*Arbetslivserfarenhet page css*/
 .arbetslivserfarenhet h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .arbetslivserfarenhet {
@@ -222,7 +232,7 @@
 
 .arbetslivserfarenhet-list {
   font-size: 30px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .erfarenhet-social-links i {
@@ -244,18 +254,18 @@
 
   .banner-text h1 {
     font-size: 30px;
-    font-family: 'Segoe UI';
+    font-family: "Segoe UI";
   }
 
   .banner-text p {
     font-size: 30px;
-    font-family: 'Segoe UI';
+    font-family: "Segoe UI";
   }
 
   .banner-text h3 {
     font-size: 20px;
     padding: 1em;
-    font-family: 'Segoe UI';
+    font-family: "Segoe UI";
   }
   .arbetslivserfarenhet h1 {
     font-size: 30px;
@@ -267,8 +277,10 @@
 
 /* Mobile view */
 @media only screen and (max-width: 767px) {
-  .backgroundImage {
-    /* background-image: none; */
+  .project-image {
+    margin-left: 80px;
+    width: 170px;
+    height: 180px;
   }
 
   .image {
@@ -279,13 +291,13 @@
 
   .banner-text h1 {
     font-size: 30px;
-    font-family: 'Segoe UI';
+    font-family: "Segoe UI";
   }
 
   .banner-text h3 {
     font-size: 15px;
     padding: 1em;
-    font-family: 'Segoe UI';
+    font-family: "Segoe UI";
   }
 
   .social-links i {
@@ -326,7 +338,7 @@
     display: flex;
     justify-content: left;
     align-items: left;
-    font-family: 'Segoe UI';
+    font-family: "Segoe UI";
     margin-left: 30px;
   }
 

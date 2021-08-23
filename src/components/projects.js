@@ -26,13 +26,20 @@ class Projects extends Component {
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <img src="weather-app.PNG" alt="Eleni" />
+            <img src="Elenis-Blog.PNG" alt="Eleni" className="project-image" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              Eleni's Blog
-              <br />
-              <br />
+              <CardText
+                style={{
+                  fontSize: '20px',
+                  fontFamily: 'Segoe UI',
+                  textDecoration: 'underline',
+                  fontWeight: 'bold',
+                }}
+              >
+                Eleni's Blog
+              </CardText>
               React website. I used React Hooks and React Router for this React
-              JS Project. The website is fully responsive as well.
+              JS Project. The website is fully responsive.
             </CardText>
             <CardActions border>
               {/*link for github*/}
@@ -64,11 +71,18 @@ class Projects extends Component {
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <img src="weather-app.PNG" alt="Eleni" />
+            <img src="weather-app.PNG" alt="Eleni" className="project-image" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              Weather App
-              <br />
-              <br />
+              <CardText
+                style={{
+                  fontSize: '20px',
+                  fontFamily: 'Segoe UI',
+                  textDecoration: 'underline',
+                  fontWeight: 'bold',
+                }}
+              >
+                Weather App
+              </CardText>
               Weather app in React JS, I used the Open Weather Map API to make
               calls to a restful api to return the current weather data.
             </CardText>
@@ -102,10 +116,18 @@ class Projects extends Component {
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <img src="weather-app.PNG" alt="Eleni" />
+            <img src="Bookstore.PNG" alt="Eleni" className="project-image" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              Bookstore / E-books
-              <br />
+            <CardText
+                style={{
+                  fontSize: '20px',
+                  fontFamily: 'Segoe UI',
+                  textDecoration: 'underline',
+                  fontWeight: 'bold',
+                }}
+              >
+                 Bookstore
+              </CardText>
               <br /> Website that has as a goal, making an end user able to
               browse within the available books. React, Next.js, Tailwind, API.
             </CardText>
@@ -139,14 +161,22 @@ class Projects extends Component {
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <img src="weather-app.PNG" alt="Eleni" />
+            <img src="RememberToBuy.PNG" alt="Eleni" className="project-image" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              Remember to buy
-              <br />
+            <CardText
+                style={{
+                  fontSize: '20px',
+                  fontFamily: 'Segoe UI',
+                  textDecoration: 'underline',
+                  fontWeight: 'bold',
+                }}
+              >
+                 Remember To Buy
+              </CardText>
               <br /> To do List created with React.
               <br />
               <br />
-              Fully responsive as well.
+              Fully responsive.
             </CardText>
             <CardActions border>
               {/*link for github*/}
@@ -178,12 +208,19 @@ class Projects extends Component {
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <img src="weather-app.PNG" alt="Eleni" />
+            <img src="MyStore.PNG" alt="Eleni" className="project-image" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              My store
-              <br />
+              <CardText
+                style={{
+                  fontSize: '20px',
+                  fontFamily: 'Segoe UI',
+                  textDecoration: 'underline',
+                  fontWeight: 'bold',
+                }}
+              >
+                My store
+              </CardText>
               <br /> Angular application with components.
-              <br />
               <br /> Starting learning Angular! Enjoying learning new things!
             </CardText>
             <CardActions border>
