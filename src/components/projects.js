@@ -89,7 +89,7 @@ class Projects extends Component {
             <CardActions border>
               {/*link for github*/}
               <a
-                href="https://github.com/eleniaslanidou89/e-books"
+                href="https://github.com/eleniaslanidou89/Weather-App"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -118,7 +118,7 @@ class Projects extends Component {
           >
             <img src="Bookstore.PNG" alt="Eleni" className="project-image" />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-            <CardText
+              <CardText
                 style={{
                   fontSize: '20px',
                   fontFamily: 'Segoe UI',
@@ -126,7 +126,7 @@ class Projects extends Component {
                   fontWeight: 'bold',
                 }}
               >
-                 Bookstore
+                Bookstore
               </CardText>
               <br /> Website that has as a goal, making an end user able to
               browse within the available books. React, Next.js, Tailwind, API.
@@ -161,9 +161,13 @@ class Projects extends Component {
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
-            <img src="RememberToBuy.PNG" alt="Eleni" className="project-image" />
+            <img
+              src="RememberToBuy.PNG"
+              alt="Eleni"
+              className="project-image"
+            />
             <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-            <CardText
+              <CardText
                 style={{
                   fontSize: '20px',
                   fontFamily: 'Segoe UI',
@@ -171,7 +175,7 @@ class Projects extends Component {
                   fontWeight: 'bold',
                 }}
               >
-                 Remember To Buy
+                Remember To Buy
               </CardText>
               <br /> To do List created with React.
               <br />
