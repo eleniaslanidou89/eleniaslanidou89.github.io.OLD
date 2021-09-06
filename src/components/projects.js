@@ -24,24 +24,51 @@ class Projects extends Component {
           {/*Project #1*/}
           <Card
             shadow={5}
-            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
           >
-            <img src="Elenis-Blog.PNG" alt="Eleni" className="project-image" />
-            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              <CardText
-                style={{
-                  fontSize: '20px',
-                  fontFamily: 'Segoe UI',
-                  textDecoration: 'underline',
-                  fontWeight: 'bold',
-                }}
-              >
-                Eleni's Blog
-              </CardText>
-              React website. I used React Hooks and React Router for this React
-              JS Project. The website is fully responsive.
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '50px',
+                paddingLeft: '50px',
+              }}
+            >
+              Eleni's Blog
+            </CardTitle>
+            <img src="Elenis-Blog.PNG" alt="Blog" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
             </CardText>
-            <CardActions border>
+            React website. I used React Hooks and React Router for this React JS
+            Project. The website is fully responsive.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Technologies used:
+            </CardText>
+            React website. I used React Hooks and React Router for this React JS
+            Project. The website is fully responsive.
+            <CardActions>
               {/*link for github*/}
               <a
                 href="https://github.com/eleniaslanidou89/Eleni-s_Blog/tree/master"
@@ -69,24 +96,56 @@ class Projects extends Component {
           {/*Project #2*/}
           <Card
             shadow={5}
-            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
           >
-            <img src="weather-app.PNG" alt="Eleni" className="project-image" />
-            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              <CardText
-                style={{
-                  fontSize: '20px',
-                  fontFamily: 'Segoe UI',
-                  textDecoration: 'underline',
-                  fontWeight: 'bold',
-                }}
-              >
-                Weather App
-              </CardText>
-              Weather app in React JS, I used the Open Weather Map API to make
-              calls to a restful api to return the current weather data.
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+
+                fontWeight: 'bold',
+                paddingRight: '40px',
+                paddingLeft: '40px',
+              }}
+            >
+              Weather App
+            </CardTitle>
+            <img
+              src="weather-app.PNG"
+              alt="WeatherApp"
+              className="project-image"
+            />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
             </CardText>
-            <CardActions border>
+            Weather app in React JS, I used the Open Weather Map API to make
+            calls to a restful api to return the current weather data.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Technologies used:
+            </CardText>
+            React website. I used React Hooks and React Router for this React JS
+            Project. The website is fully responsive.
+            <CardActions>
               {/*link for github*/}
               <a
                 href="https://github.com/eleniaslanidou89/Weather-App"
@@ -98,7 +157,7 @@ class Projects extends Component {
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
-              {/*link for app*/}
+              {/*link for the app*/}
               <a
                 href="http://weatherappbyeleni.surge.sh/"
                 rel="noopener noreferrer"
@@ -114,24 +173,55 @@ class Projects extends Component {
           {/*Project #3*/}
           <Card
             shadow={5}
-            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
           >
-            <img src="Bookstore.PNG" alt="Eleni" className="project-image" />
-            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              <CardText
-                style={{
-                  fontSize: '20px',
-                  fontFamily: 'Segoe UI',
-                  textDecoration: 'underline',
-                  fontWeight: 'bold',
-                }}
-              >
-                Bookstore
-              </CardText>
-              <br /> Website that has as a goal, making an end user able to
-              browse within the available books. React, Next.js, Tailwind, API.
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '40px',
+                paddingLeft: '60px',
+              }}
+            >
+              Bookstore
+            </CardTitle>
+            <img
+              src="Bookstore.PNG"
+              alt="Bookstore"
+              className="project-image"
+            />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
             </CardText>
-            <CardActions border>
+            Website that has as a goal, making an end user able to browse within
+            the available books. React, Next.js, Tailwind, API.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Technologies used:
+            </CardText>
+            React website. I used React Hooks and React Router for this React JS
+            Project. The website is fully responsive.
+            <CardActions>
               {/*link for github*/}
               <a
                 href="https://github.com/eleniaslanidou89/e-books"
@@ -143,7 +233,7 @@ class Projects extends Component {
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
-              {/*link for website*/}
+              {/*link for the website*/}
               <a
                 href="http://bookstore-eleni.herokuapp.com/"
                 rel="noopener noreferrer"
@@ -159,30 +249,208 @@ class Projects extends Component {
           {/*Project #4*/}
           <Card
             shadow={5}
-            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
           >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '10px',
+                paddingLeft: '20px',
+              }}
+            >
+              Calculator
+            </CardTitle>
             <img
-              src="RememberToBuy.PNG"
-              alt="Eleni"
+              src="Calculator.PNG"
+              alt="calculator"
               className="project-image"
             />
-            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              <CardText
-                style={{
-                  fontSize: '20px',
-                  fontFamily: 'Segoe UI',
-                  textDecoration: 'underline',
-                  fontWeight: 'bold',
-                }}
-              >
-                Remember To Buy
-              </CardText>
-              <br /> To do List created with React.
-              <br />
-              <br />
-              Fully responsive.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
             </CardText>
-            <CardActions border>
+            Website that has as a goal, making an end user able to browse within
+            the available books. React, Next.js, Tailwind, API.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Technologies used:
+            </CardText>
+            React website. I used React Hooks and React Router for this React JS
+            Project. The website is fully responsive.
+            <CardActions>
+              {/*link for github*/}
+              <a
+                href="https://github.com/eleniaslanidou89/Vue.js_project"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  GitHub{' '}
+                  <i className="fab fa-github-square" aria-hidden="true" />
+                </Button>
+              </a>
+              {/*link for the app*/}
+              <a
+                href="https://calculatorvuejs.surge.sh/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  LINK <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          {/*Project #5*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
+                paddingRight: '10px',
+                paddingLeft: '20px',
+              }}
+            >
+              E-Commerce
+            </CardTitle>
+            <img
+              src="E-commerce.PNG"
+              alt="commerce"
+              className="project-image"
+            />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
+            </CardText>
+            Website that has as a goal, making an end user able to browse within
+            the available books. React, Next.js, Tailwind, API.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Technologies used:
+            </CardText>
+            React website. I used React Hooks and React Router for this React JS
+            Project. The website is fully responsive.
+            <CardActions>
+              {/*link for github*/}
+              <a
+                href="https://github.com/eleniaslanidou89/E-Commerce"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  GitHub{' '}
+                  <i className="fab fa-github-square" aria-hidden="true" />
+                </Button>
+              </a>
+              {/*link for the website*/}
+              <a
+                href="https://commerce.surge.sh/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  LINK <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          {/*Project #6*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+
+                fontWeight: 'bold',
+                paddingRight: '10px',
+                paddingLeft: '20px',
+              }}
+            >
+              Remember To Buy
+            </CardTitle>
+            <img
+              src="RememberToBuy.PNG"
+              alt="ToDoList"
+              className="project-image"
+            />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
+            </CardText>
+            Website that has as a goal, making an end user able to browse within
+            the available books. React, Next.js, Tailwind, API.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Technologies used:
+            </CardText>
+            React website. I used React Hooks and React Router for this React JS
+            Project. The website is fully responsive.
+            <CardActions>
               {/*link for github*/}
               <a
                 href="https://github.com/eleniaslanidou89/Remember_To_Buy"
@@ -194,7 +462,7 @@ class Projects extends Component {
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
-              {/*link for app*/}
+              {/*link for the app*/}
               <a
                 href="https://remembertodo.surge.sh/"
                 rel="noopener noreferrer"
@@ -208,7 +476,7 @@ class Projects extends Component {
           </Card>
 
           {/*Project #5*/}
-          <Card
+          {/* <Card
             shadow={5}
             style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
           >
@@ -228,7 +496,7 @@ class Projects extends Component {
               <br /> Starting learning Angular! Enjoying learning new things!
             </CardText>
             <CardActions border>
-              {/*link for github*/}
+              
               <a
                 href="https://github.com/eleniaslanidou89/angular-fyx8tk-bgamsm"
                 rel="noopener noreferrer"
@@ -239,7 +507,7 @@ class Projects extends Component {
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
-              {/*link for app*/}
+           
               <a
                 href="https://angular-fyx8tk-rwft5n.stackblitz.io"
                 rel="noopener noreferrer"
@@ -251,6 +519,7 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
+         */}
         </div>
       )
     } else if (this.state.activeTab === 1) {

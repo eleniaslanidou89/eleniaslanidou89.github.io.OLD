@@ -5,7 +5,6 @@
 }
 
 .temperature {
-  /* border: 2px dotted gray; */
   font-family: "Segoe UI";
   font-weight: bold;
   color: black;
@@ -105,12 +104,12 @@
 }
 
 .project-image {
-  margin-left: 60px;
+  margin-left: 20px;
   align: center;
   border-radius: 10%;
   width: 200px;
   height: 200px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .projects-grid {
@@ -278,7 +277,7 @@
 /* Mobile view */
 @media only screen and (max-width: 767px) {
   .project-image {
-    margin-left: 80px;
+    margin-left: 30px;
     width: 170px;
     height: 180px;
   }
