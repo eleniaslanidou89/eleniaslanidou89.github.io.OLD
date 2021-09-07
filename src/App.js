@@ -33,7 +33,7 @@ function isSearched(searchTerm) {
 
 // API KEY: APPID=f8384513fad5f91ea04d07a2cbf916ec
 const API =
-  'http://api.openweathermap.org/data/2.5/weather?q=stockholm,se&APPID=f8384513fad5f91ea04d07a2cbf916ec&units=metric'
+  'https://api.openweathermap.org/data/2.5/weather?q=stockholm,se&APPID=f8384513fad5f91ea04d07a2cbf916ec&units=metric'
 
 class App extends Component {
   constructor(props) {
