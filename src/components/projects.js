@@ -66,8 +66,7 @@ class Projects extends Component {
             >
               Technologies used:
             </CardText>
-            React website. I used React Hooks and React Router for this React JS
-            Project. The website is fully responsive.
+            JavaScript, React, CSS
             <CardActions>
               {/*link for github*/}
               <a
@@ -132,7 +131,8 @@ class Projects extends Component {
               Description:
             </CardText>
             Weather app in React JS, I used the Open Weather Map API to make
-            calls to a restful api to return the current weather data.
+            calls to a restful api to return the current weather data. The App
+            is fully responsive.
             <CardText
               style={{
                 fontSize: '20px',
@@ -143,8 +143,7 @@ class Projects extends Component {
             >
               Technologies used:
             </CardText>
-            React website. I used React Hooks and React Router for this React JS
-            Project. The website is fully responsive.
+            JavaScript, React, API, CSS
             <CardActions>
               {/*link for github*/}
               <a
@@ -208,7 +207,7 @@ class Projects extends Component {
               Description:
             </CardText>
             Website that has as a goal, making an end user able to browse within
-            the available books. React, Next.js, Tailwind, API.
+            the available books.
             <CardText
               style={{
                 fontSize: '20px',
@@ -219,8 +218,7 @@ class Projects extends Component {
             >
               Technologies used:
             </CardText>
-            React website. I used React Hooks and React Router for this React JS
-            Project. The website is fully responsive.
+            JavaScript, React, Next.js, Tailwind, API.
             <CardActions>
               {/*link for github*/}
               <a
@@ -262,8 +260,8 @@ class Projects extends Component {
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 fontWeight: 'bold',
-                paddingRight: '10px',
-                paddingLeft: '20px',
+                paddingRight: '40px',
+                paddingLeft: '60px',
               }}
             >
               Calculator
@@ -283,8 +281,7 @@ class Projects extends Component {
             >
               Description:
             </CardText>
-            Website that has as a goal, making an end user able to browse within
-            the available books. React, Next.js, Tailwind, API.
+            A calculator app using Vue JS. The App is fully responsive.
             <CardText
               style={{
                 fontSize: '20px',
@@ -295,8 +292,7 @@ class Projects extends Component {
             >
               Technologies used:
             </CardText>
-            React website. I used React Hooks and React Router for this React JS
-            Project. The website is fully responsive.
+            JavaScript, Vue.js, CSS
             <CardActions>
               {/*link for github*/}
               <a
@@ -338,8 +334,8 @@ class Projects extends Component {
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 fontWeight: 'bold',
-                paddingRight: '10px',
-                paddingLeft: '20px',
+                paddingRight: '40px',
+                paddingLeft: '40px',
               }}
             >
               E-Commerce
@@ -359,8 +355,8 @@ class Projects extends Component {
             >
               Description:
             </CardText>
-            Website that has as a goal, making an end user able to browse within
-            the available books. React, Next.js, Tailwind, API.
+            A complete eCommerce website. A fully functional eCommerce
+            application using commerce.js.
             <CardText
               style={{
                 fontSize: '20px',
@@ -371,8 +367,7 @@ class Projects extends Component {
             >
               Technologies used:
             </CardText>
-            React website. I used React Hooks and React Router for this React JS
-            Project. The website is fully responsive.
+            JavaScript, React, TypeScript
             <CardActions>
               {/*link for github*/}
               <a
@@ -436,8 +431,7 @@ class Projects extends Component {
             >
               Description:
             </CardText>
-            Website that has as a goal, making an end user able to browse within
-            the available books. React, Next.js, Tailwind, API.
+            A To do App which reminds what products should the user buy.
             <CardText
               style={{
                 fontSize: '20px',
@@ -448,8 +442,7 @@ class Projects extends Component {
             >
               Technologies used:
             </CardText>
-            React website. I used React Hooks and React Router for this React JS
-            Project. The website is fully responsive.
+            JavaScript, React, CSS
             <CardActions>
               {/*link for github*/}
               <a
