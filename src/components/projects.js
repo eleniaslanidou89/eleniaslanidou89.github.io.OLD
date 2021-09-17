@@ -37,6 +37,77 @@ class Projects extends Component {
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
                 fontWeight: 'bold',
+                paddingRight: '20px',
+                paddingLeft: '20px',
+              }}
+            >
+              Covid-19 Tracker
+            </CardTitle>
+            <img src="Elenis-Blog.PNG" alt="Covid19" className="project-image" />
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Description:
+            </CardText>
+            React website. I used React Hooks and React Router for this React JS
+            Project. The website is fully responsive.
+            <CardText
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                paddingLeft: '5px',
+                textDecoration: 'underline',
+              }}
+            >
+              Technologies used:
+            </CardText>
+            JavaScript, React, CSS
+            <CardActions>
+              {/*link for github*/}
+              <a
+                href="https://github.com/eleniaslanidou89/Eleni-s_Blog/tree/master"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  GitHub{' '}
+                  <i className="fab fa-github-square" aria-hidden="true" />
+                </Button>
+              </a>
+              {/*link for the website*/}
+              <a
+                href="https://elenisblog.surge.sh/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>
+                  LINK <i class="fas fa-link" aria-hidden="true" />
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          {/*Project #2*/}
+          <Card
+            shadow={5}
+            style={{
+              minWidth: '500',
+              marginTop: '80px',
+              marginLeft: '50px',
+              padding: '50px',
+              fontFamily: 'Segoe UI',
+            }}
+          >
+            <CardTitle
+              style={{
+                fontSize: '20px',
+                fontFamily: 'Segoe UI',
+                fontWeight: 'bold',
                 paddingRight: '50px',
                 paddingLeft: '50px',
               }}
@@ -92,7 +163,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Project #2*/}
+          {/*Project #3*/}
           <Card
             shadow={5}
             style={{
@@ -169,7 +240,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Project #3*/}
+          {/*Project #4*/}
           <Card
             shadow={5}
             style={{
@@ -244,7 +315,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Project #4*/}
+          {/*Project #5*/}
           <Card
             shadow={5}
             style={{
@@ -318,7 +389,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Project #5*/}
+          {/*Project #6*/}
           <Card
             shadow={5}
             style={{
@@ -393,7 +464,7 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
-          {/*Project #6*/}
+          {/*Project #7*/}
           <Card
             shadow={5}
             style={{
@@ -408,7 +479,6 @@ class Projects extends Component {
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
-
                 fontWeight: 'bold',
                 paddingRight: '10px',
                 paddingLeft: '20px',
@@ -467,52 +537,6 @@ class Projects extends Component {
               </a>
             </CardActions>
           </Card>
-
-          {/*Project #5*/}
-          {/* <Card
-            shadow={5}
-            style={{ minWidth: '500', marginTop: '80px', marginLeft: '50px' }}
-          >
-            <img src="MyStore.PNG" alt="Eleni" className="project-image" />
-            <CardText style={{ fontSize: '20px', fontFamily: 'Segoe UI' }}>
-              <CardText
-                style={{
-                  fontSize: '20px',
-                  fontFamily: 'Segoe UI',
-                  textDecoration: 'underline',
-                  fontWeight: 'bold',
-                }}
-              >
-                My store
-              </CardText>
-              <br /> Angular application with components.
-              <br /> Starting learning Angular! Enjoying learning new things!
-            </CardText>
-            <CardActions border>
-              
-              <a
-                href="https://github.com/eleniaslanidou89/angular-fyx8tk-bgamsm"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>
-                  GitHub{' '}
-                  <i className="fab fa-github-square" aria-hidden="true" />
-                </Button>
-              </a>
-           
-              <a
-                href="https://angular-fyx8tk-rwft5n.stackblitz.io"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>
-                  LINK <i class="fas fa-link" aria-hidden="true" />
-                </Button>
-              </a>
-            </CardActions>
-          </Card>
-         */}
         </div>
       )
     } else if (this.state.activeTab === 1) {

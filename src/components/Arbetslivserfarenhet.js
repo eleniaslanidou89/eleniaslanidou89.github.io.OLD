@@ -25,7 +25,7 @@ class Arbetslivserfarenhet extends Component {
                 <h1>Work Experience</h1>
                 <div className="date">01/2021-05/2021</div>
                 <div className="erfarenhet-social-links">
-                  Vinden
+                  Vinden AB
                   <a
                     href="https://www.vinden.com/"
                     rel="noopener noreferrer"
@@ -39,28 +39,7 @@ class Arbetslivserfarenhet extends Component {
                 </div>
               </CardText>
 
-              <CardText
-                style={{
-                  fontSize: '20px',
-                  color: 'black',
-                  fontFamily: 'Segoe UI',
-                }}
-              >
-                <div className="date">08/2019-09/2019</div>
-
-                <div className="erfarenhet-social-links">
-                  Jobb & Tillväxtcenter
-                  <a
-                    href="https://jobbtillvaxtcenter.se/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i class="fas fa-link" aria-hidden="true" />
-                  </a>
-                  <br />
-                  Exekutive Assistant – Stockholm
-                </div>
-              </CardText>
+             
               <CardText
                 style={{
                   fontSize: '20px',

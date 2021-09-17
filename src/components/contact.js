@@ -19,8 +19,7 @@ class Contact extends Component {
                 bachelor in IT and Communications Engineering. As a person I
                 have great energy and I am open minded. I have the "of course I
                 can" attitude because I am not afraid of new challenges. I
-                always strive to improve myself. Please contact me if you have
-                any questions or concern.
+                always strive to improve myself.
               </p>
               <i className="fa fa-envelope-open" aria-hidden="true" />{' '}
               <p className="contactInfo">helena.aslanidou@gmail.com</p>
