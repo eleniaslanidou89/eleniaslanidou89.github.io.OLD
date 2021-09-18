@@ -19,7 +19,7 @@ class Landing extends Component {
                 <p className="skills">
                   {' '}
                   <span> CODE: </span>
-                  HTML5 | CSS | Bootstrap | Javascript GraphQL | Material UI |
+                  HTML5 | CSS | Bootstrap | Javascript | GraphQL | Material UI |
                   Tailwind | CSSModules | Typescript
                 </p>
                 <p className="skills">

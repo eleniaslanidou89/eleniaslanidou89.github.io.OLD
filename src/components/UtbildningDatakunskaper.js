@@ -22,7 +22,7 @@ class UtbildningDatakunskaper extends Component {
                 }}
               >
                 <h1>Education</h1>
-                <div className="date">2019-2021</div> <br /> KYH - Front-end
+                <div className="date">2019-2021</div> <br /> KYH - Frontend
                 Developer <br />
                 Stockholm
               </CardText>

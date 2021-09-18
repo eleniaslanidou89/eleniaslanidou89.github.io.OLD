@@ -41,9 +41,13 @@ class Projects extends Component {
                 paddingLeft: '20px',
               }}
             >
-              Covid-19 Tracker
+              Covid19 Tracker
             </CardTitle>
-            <img src="Elenis-Blog.PNG" alt="Covid19" className="project-image" />
+            <img
+              src="covidTracker.PNG"
+              alt="Covid19"
+              className="project-image"
+            />
             <CardText
               style={{
                 fontSize: '20px',
@@ -54,8 +58,8 @@ class Projects extends Component {
             >
               Description:
             </CardText>
-            React website. I used React Hooks and React Router for this React JS
-            Project. The website is fully responsive.
+            An app which is created with Vuejs and Tailwind. The website is
+            fully responsive.
             <CardText
               style={{
                 fontSize: '20px',
@@ -66,11 +70,11 @@ class Projects extends Component {
             >
               Technologies used:
             </CardText>
-            JavaScript, React, CSS
+            Vuejs, Tailwind
             <CardActions>
               {/*link for github*/}
               <a
-                href="https://github.com/eleniaslanidou89/Eleni-s_Blog/tree/master"
+                href="https://github.com/eleniaslanidou89/Covid19Tracker"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -79,9 +83,9 @@ class Projects extends Component {
                   <i className="fab fa-github-square" aria-hidden="true" />
                 </Button>
               </a>
-              {/*link for the website*/}
+              {/*link for the app*/}
               <a
-                href="https://elenisblog.surge.sh/"
+                href="https://vuejscovid.surge.sh/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -178,7 +182,6 @@ class Projects extends Component {
               style={{
                 fontSize: '20px',
                 fontFamily: 'Segoe UI',
-
                 fontWeight: 'bold',
                 paddingRight: '40px',
                 paddingLeft: '40px',
@@ -363,7 +366,7 @@ class Projects extends Component {
             >
               Technologies used:
             </CardText>
-            JavaScript, Vue.js, CSS
+            JavaScript, Vuejs, CSS
             <CardActions>
               {/*link for github*/}
               <a
